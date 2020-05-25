@@ -1,0 +1,45 @@
+footer {
+  background-color: darken($color: #000000, $amount: 0);
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+
+}
+
+.copy-right {
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+
+.social-media {
+  list-style: none;
+  display: flex;
+
+  i {
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 5px;
+    background-color: grey;
+    margin-left: 30px;
+    transition: 0.2s linear;
+  }
+
+  i:hover {
+    transform: scale(1.1);
+    color: grey;
+    background-color: white;
+  }
+
+}
