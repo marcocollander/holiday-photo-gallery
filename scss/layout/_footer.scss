@@ -1,13 +1,11 @@
 footer {
   background-color: darken($color: #000000, $amount: 0);
+  padding: 5px;
+  margin-top: 1rem;
 }
 
-.row {
-  display: flex;
-  justify-content: space-around;
-  color: white;
-  align-items: center;
-
+.row p {
+  color: $color-light;
 }
 
 .copy-right {
