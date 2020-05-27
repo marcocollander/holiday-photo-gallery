@@ -1,6 +1,44 @@
 .row {
   display: flex;
   justify-content: space-around;
-  color: $color-dark;
   align-items: center;
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+  }
+}
+
+header.row {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: $color-light-dark;
+  padding: 1rem;
+  font-family: 'Oswald', sans-serif;
+  color: $color-light;
+}
+
+.menu {
+  ul {
+    display: flex;
+
+    li {
+      margin-left: 4rem;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.5rem;
+        transition: font-size 0.2s linear;
+
+        &:hover {
+          font-size: 1.8rem;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
 }
