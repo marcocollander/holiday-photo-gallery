@@ -29,14 +29,14 @@ header.row {
       margin-left: 4rem;
 
       a {
+        display: inline-block;
         text-decoration: none;
         color: inherit;
         font-size: 1.5rem;
-        transition: font-size 0.2s linear;
+        transition: 0.2s linear;
 
         &:hover {
-          font-size: 1.8rem;
-          letter-spacing: 2px;
+          transform: scale(1.2);
         }
       }
     }
