@@ -16,5 +16,5 @@ setInterval(() => {
   } else {
     counter = -1;
   }
-}, 3000);
+}, 1000);
 
